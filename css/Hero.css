@@ -1,0 +1,90 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url("../img/Hero.jpeg");
+  }
+
+
+  .banner-content {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(209, 209, 209, 0.309);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-content p{
+    margin-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  .banner-info{
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+  }
+  
+  .banner-content h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+  }
+  
+  .banner-content a {
+    text-decoration: none;
+    color: rgb(0 0 0);
+    padding: 9px 20px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    background-color: forestgreen;
+    border-radius: 5px;
+  }
+  .banner-content a:hover {
+    background-color: white;
+    color: #333;
+  }
+  
+  @media screen and (max-width: 400px){
+    form{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    form input{
+      border-radius: 5px;
+    }
+    form a{
+      margin-top: 10px;
+    }
+  }
+
+  form input{
+    width: 15rem;
+    height: 2.5rem;
+    margin-right: 12px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.809);  
+  }
+
+  input:focus{
+    border-color: none;
+    outline: none;
+  }
+ 

@@ -1,0 +1,16 @@
+.titulo{
+    text-align: center;
+    color: white;
+    padding:30px 30px;
+}
+
+.titulo2{
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+    text-transform:uppercase;
+}
+
+.forex{
+    background-color: rgb(36 47 61);
+}

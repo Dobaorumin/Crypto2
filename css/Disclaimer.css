@@ -1,0 +1,17 @@
+.disclaimer{
+    font-size: x-small;
+    padding-bottom: 44px;
+  }
+
+.p-disclaimer{
+    background-color: gray;
+  }
+
+@media screen and (max-width: 600px){ 
+    .cryptohopper-web-widget{
+        display: none;
+    }
+    .disclaimer{
+        padding-bottom: 0;
+    }
+}

@@ -1,0 +1,81 @@
+.wrap-cursos{
+    background-color: rgb(36 47 61);
+    width: 100vw;
+    height: 100%;
+}
+
+.imagen-curso{
+    display: flex;
+}
+
+.imagen{
+    width: 1000px;
+}   
+.info-curso{
+    color:white;
+    font-size: x-large;
+    padding-top: 80px;
+    margin-right: 20px;
+}
+
+.info-curso a{
+    text-decoration: none;
+    color: white;
+    margin: 40px 40px 40px 40px;
+    justify-content: center;
+    display: flex;
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 9px 20px;
+    transition: all ease-in-out .3s;
+}
+
+.info-curso a:hover{
+    background-color: white;
+    color: black;
+}
+
+.Youtube{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: crimson;
+    border: 1px solid crimson;
+    width:200px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: all ease-in-out .3s;
+}
+
+.div-youtube{
+display: flex;
+justify-content: center;
+padding-bottom: 200px;
+}
+
+.Youtube:hover{
+    background-color: crimson;
+    color: white;
+}
+
+
+@media screen and (max-width: 1300px){
+    .imagen-curso{
+        flex-direction: column;
+    }
+    .imagen{
+        justify-content: center;
+        width: auto;
+    }
+    .info-curso{
+        padding: 30px;
+        text-align: center;
+        margin-right:0;
+    }
+    .div{
+        padding: 30px;
+        text-align: center;
+    }
+}
